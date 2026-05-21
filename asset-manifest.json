@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sardarbashis/static/css/main.20ca8e0f.css",
+    "main.js": "/sardarbashis/static/js/main.7d29549c.js",
+    "static/js/453.e7f01505.chunk.js": "/sardarbashis/static/js/453.e7f01505.chunk.js",
+    "static/media/bg-light.png": "/sardarbashis/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/sardarbashis/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/ashis.jpeg": "/sardarbashis/static/media/ashis.d383125f7475ad58d101.jpeg",
+    "static/media/prediction-result.jpeg": "/sardarbashis/static/media/prediction-result.4c6bd471c95a43bf1b85.jpeg",
+    "index.html": "/sardarbashis/index.html",
+    "main.20ca8e0f.css.map": "/sardarbashis/static/css/main.20ca8e0f.css.map",
+    "main.7d29549c.js.map": "/sardarbashis/static/js/main.7d29549c.js.map",
+    "453.e7f01505.chunk.js.map": "/sardarbashis/static/js/453.e7f01505.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20ca8e0f.css",
+    "static/js/main.7d29549c.js"
+  ]
+}
