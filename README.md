@@ -6,11 +6,11 @@
 
 This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
+View the [Demo](https://github.com/sardarbashis).
 
 **This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
 
-![screenshot](./src/assets//images/screenshot.png)
+![screenshot](./src/assets//images/screenshot.jpeg)
 
 ## Features
 
@@ -62,7 +62,7 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 
     ```json
     {
-        "homepage": "https://yourusername.github.io/your-repo-name",
+        "homepage": "https://github.com/sardarbashis",
         "scripts": {
             "predeploy": "npm run build",
             "deploy": "gh-pages -d build",
@@ -83,4 +83,4 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 
 4. **Access Your Deployed App**
 
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+    After successfully deploying, you can access your app at `https://github.com/sardarbashis`.

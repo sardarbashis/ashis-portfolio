@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
+
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -16,7 +16,7 @@ function Contact() {
   const [emailError, setEmailError] = useState<boolean>(false);
   const [messageError, setMessageError] = useState<boolean>(false);
 
-  const form = useRef();
+  const form = useRef<any>();
 
   const sendEmail = (e: any) => {
     e.preventDefault();
@@ -25,36 +25,38 @@ function Contact() {
     setEmailError(email === '');
     setMessageError(message === '');
 
-    /* Uncomment below if you want to enable the emailJS */
-
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
-
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+    if (name !== '' && email !== '' && message !== '') {
+      alert("Contact form functionality coming soon!");
+    }
   };
 
   return (
     <div id="contact">
+
       <div className="items-container">
+
         <div className="contact_wrapper">
+
           <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+
+          <h3>Email: ashissardar7003@gmail.com</h3>
+
+          <h3>
+            LinkedIn: 
+            <a
+              href="https://www.linkedin.com/in/ashiskumarsardar/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}linkedin.com/in/ashiskumarsardar
+            </a>
+          </h3>
+
+          <p>
+            Open to AI/ML engineering opportunities, collaborations,
+            freelance projects, and innovative startup ideas.
+          </p>
+
           <Box
             ref={form}
             component="form"
@@ -62,7 +64,9 @@ function Contact() {
             autoComplete="off"
             className='contact-form'
           >
+
             <div className='form-flex'>
+
               <TextField
                 required
                 id="outlined-required"
@@ -75,6 +79,7 @@ function Contact() {
                 error={nameError}
                 helperText={nameError ? "Please enter your name" : ""}
               />
+
               <TextField
                 required
                 id="outlined-required"
@@ -87,7 +92,9 @@ function Contact() {
                 error={emailError}
                 helperText={emailError ? "Please enter your email or phone number" : ""}
               />
+
             </div>
+
             <TextField
               required
               id="outlined-multiline-static"
@@ -103,12 +110,21 @@ function Contact() {
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
-              Send
+
+            <Button
+              variant="contained"
+              endIcon={<SendIcon />}
+              onClick={sendEmail}
+            >
+              Coming Soon
             </Button>
+
           </Box>
+
         </div>
+
       </div>
+
     </div>
   );
 }

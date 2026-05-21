@@ -2,10 +2,11 @@
   "name": "react-portfolio-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yujisatojr.github.io/react-portfolio-template",
+  "homepage": "https://github.com/sardarbashis",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-svg-core": "^7.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
@@ -21,7 +22,7 @@
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.77.4",
     "typescript": "^4.9.5",
@@ -54,6 +55,8 @@
     ]
   },
   "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.6"
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "ajv": "^8.20.0",
+    "ajv-keywords": "^5.1.0"
   }
 }
