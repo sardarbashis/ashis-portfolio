@@ -1,86 +1,142 @@
-# Developer Portfolio Template 🚀
+# Ashis Kumar Sardar Portfolio 🚀
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-black?style=for-the-badge&logo=github)
 
-## What is this?
+## 🌐 Live Portfolio
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+👉 [View Portfolio](https://sardarbashis.github.io/ashis-portfolio/)
 
-View the [Demo](https://github.com/sardarbashis).
+---
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
+## 📌 About This Portfolio
 
-![screenshot](./src/assets//images/screenshot.jpeg)
+This portfolio showcases my work, technical expertise, projects, and experience in:
 
-## Features
+- Machine Learning
+- Generative AI
+- Full Stack Development
+- AI-powered applications
+- MLOps & deployment workflows
 
-✅ Open source (free to use, no attribution required)  
-✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+The portfolio is fully responsive and designed with a modern UI to provide a smooth user experience across desktop and mobile devices.
 
-## Quick Setup
+---
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+## 🖼️ Preview
 
-    ```bash
-    node -v
-    ```
+![Portfolio Screenshot](./src/assets/images/screenshot.jpeg)
 
-2. In the project directory, install dependencies:
+---
 
-    ```bash
-    npm install
-    ```
+## ✨ Features
 
-3. Start the development server:
+✅ Responsive & mobile-friendly design  
+✅ Dark mode UI  
+✅ Smooth scrolling navigation  
+✅ Project showcase section  
+✅ Career timeline section  
+✅ Contact section  
+✅ GitHub Pages deployment  
+✅ Fully customizable React components  
 
-    ```bash
-    npm start
-    ```
+---
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+## 🛠️ Tech Stack
 
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+- React
+- TypeScript
+- JavaScript
+- SCSS
+- Node.js
+- GitHub Pages
 
-The page will reload if you make edits, and you will see any lint errors in the console.
+---
 
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
+## 📂 Featured Projects
 
-## Deployment
+### Smart Credit Risk Engine
+AI-powered credit risk prediction system using Machine Learning and FastAPI.
 
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+### AI/ML Projects
+Collection of ML, GenAI, and data-driven applications focused on real-world problem solving.
 
-1. **Set Up GitHub Repository**
+### Full Stack Applications
+Modern web applications with scalable frontend/backend architecture.
 
-    Create a new repository on GitHub for your portfolio app.
+---
 
-2. **Configure `package.json`**
+## ⚡ Quick Setup
 
-    Edit the following properties in your `package.json` file:
+### 1. Clone Repository
 
-    ```json
-    {
-        "homepage": "https://github.com/sardarbashis",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
+```bash
+git clone https://github.com/sardarbashis/ashis-portfolio.git
+```
 
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
+### 2. Navigate into Project
 
-3. **Deploy to GitHub Pages**
+```bash
+cd ashis-portfolio
+```
 
-    Run the following command to deploy your app:
+### 3. Install Dependencies
 
-    ```bash
-    npm run deploy
-    ```
+```bash
+npm install
+```
 
-4. **Access Your Deployed App**
+### 4. Start Development Server
 
-    After successfully deploying, you can access your app at `https://github.com/sardarbashis`.
+```bash
+npm start
+```
+
+Open:
+
+```txt
+http://localhost:3000
+```
+
+---
+
+## 🚀 Deployment
+
+This portfolio is deployed using GitHub Pages.
+
+### Deploy Command
+
+```bash
+npm run deploy
+```
+
+### Live URL
+
+```txt
+https://sardarbashis.github.io/ashis-portfolio/
+```
+
+---
+
+## 📬 Connect With Me
+
+### LinkedIn
+👉 https://www.linkedin.com/in/ashiskumarsardar/
+
+### GitHub
+👉 https://github.com/sardarbashis
+
+---
+
+## ⭐ Support
+
+If you like this portfolio, feel free to star the repository.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
