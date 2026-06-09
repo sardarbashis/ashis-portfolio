@@ -7,7 +7,6 @@ import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 
 function Contact() {
-
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [message, setMessage] = useState<string>('');
@@ -26,35 +25,32 @@ function Contact() {
     setMessageError(message === '');
 
     if (name !== '' && email !== '' && message !== '') {
-      alert("Contact form functionality coming soon!");
+      alert('Contact form functionality coming soon!');
     }
   };
 
   return (
     <div id="contact">
-
       <div className="items-container">
-
         <div className="contact_wrapper">
-
           <h1>Contact Me</h1>
 
           <h3>Email: ashissardar7003@gmail.com</h3>
 
           <h3>
-            LinkedIn: 
+            LinkedIn:
             <a
               href="https://www.linkedin.com/in/ashiskumarsardar/"
               target="_blank"
               rel="noreferrer"
             >
-              {" "}linkedin.com/in/ashiskumarsardar
+              {' '}linkedin.com/in/ashiskumarsardar
             </a>
           </h3>
 
           <p>
-            Open to AI/ML engineering opportunities, collaborations,
-            freelance projects, and innovative startup ideas.
+            Open to AI/ML Engineering opportunities, GenAI projects,
+            collaborations, freelance work, and innovative startup ideas.
           </p>
 
           <Box
@@ -62,53 +58,48 @@ function Contact() {
             component="form"
             noValidate
             autoComplete="off"
-            className='contact-form'
+            className="contact-form"
           >
-
-            <div className='form-flex'>
-
+            <div className="form-flex">
               <TextField
                 required
-                id="outlined-required"
-                label="Your Name"
+                id="visitor-name"
+                label="Visitor Name"
                 placeholder="What's your name?"
                 value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
+                onChange={(e) => setName(e.target.value)}
                 error={nameError}
-                helperText={nameError ? "Please enter your name" : ""}
+                helperText={nameError ? 'Please enter your name' : ''}
               />
 
               <TextField
                 required
-                id="outlined-required"
+                id="visitor-contact"
                 label="Email / Phone"
                 placeholder="How can I reach you?"
                 value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
+                onChange={(e) => setEmail(e.target.value)}
                 error={emailError}
-                helperText={emailError ? "Please enter your email or phone number" : ""}
+                helperText={
+                  emailError
+                    ? 'Please enter your email or phone number'
+                    : ''
+                }
               />
-
             </div>
 
             <TextField
               required
-              id="outlined-multiline-static"
+              id="visitor-message"
               label="Message"
-              placeholder="Send me any inquiries or questions"
+              placeholder="Send me any inquiries, opportunities, or questions"
               multiline
               rows={10}
               className="body-form"
               value={message}
-              onChange={(e) => {
-                setMessage(e.target.value);
-              }}
+              onChange={(e) => setMessage(e.target.value)}
               error={messageError}
-              helperText={messageError ? "Please enter the message" : ""}
+              helperText={messageError ? 'Please enter a message' : ''}
             />
 
             <Button
@@ -116,15 +107,11 @@ function Contact() {
               endIcon={<SendIcon />}
               onClick={sendEmail}
             >
-              Coming Soon
+              Send Message
             </Button>
-
           </Box>
-
         </div>
-
       </div>
-
     </div>
   );
 }
